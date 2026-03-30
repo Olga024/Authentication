@@ -19,7 +19,11 @@ export const HomePage = () => {
 
     return (
         <div>
-            {newsList.map(({ title }) => <div>{title}</div>)}
+            {newsList.map((newsItem) => (
+                <div key={newsItem.id}>
+                    {newsItem.title}
+                </div>
+            ))}
         </div>
     )
 }
