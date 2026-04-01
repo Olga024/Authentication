@@ -46,13 +46,13 @@ const news = [
     {
         id: uuid.v4(),
         title: faker.lorem.words(),
-        image: "https://placeimg.com/640/480/nature",
+        image: "https://picsum.photos/640/480",
         content: faker.lorem.paragraph(),
     },
     {
         id: uuid.v4(),
         title: faker.lorem.words(),
-        image: "https://placeimg.com/640/480/arch",
+        image: "https://picsum.photos/640/480",
         content: faker.lorem.paragraph(),
     },
     {
