@@ -11,7 +11,6 @@ export const AppBar = () => {
 
     return (
         <div className="flex items-center justify-between bg-gray-100 py-8 px-10">
-            <div className="text-2xl font-bold text-gray-900">Neto Social</div>
             {!loggedUser && <LoginForm />}
             {loggedUser && (
                 <>
